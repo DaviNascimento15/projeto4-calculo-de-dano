@@ -8,15 +8,15 @@ let difference = 0
 let damage = 0
 let damageInlife= 0
 
-if (attacckPower > defensePower $ haveShilde === 'Não' || haveSheld === 'não') {
+if (attacckPower > defensePower $$ haveShilde === 'Não' || haveSheld === 'não') {
    difference = attackPower - defensePower
    demage = difference
    demageInlife = damage - life
-   if(damageInlife < 0) {damageInlife *= -1
-    alert('${pers1}' atacou ${'pers2'} sofreu ${damage} de dano e não possui escudo. Sua vida agora é ${damageInlife})
-}}
-else {
-   alert('${pers1} atacou ${pers2} sofreu ${damge} de dano e não possui escudo')}
+   if (damageInlife < 0) {
+      damageInlife *= -1
+    alert(`${pers1} atacou ${'pers2'} sofreu ${damage} de dano e não possui escudo. Sua vida agora é ${damageInlife}`)
+} else {
+   alert(`${pers1} atacou ${pers2} sofreu ${damge} de dano e não possui escudo. Sua vida agora é ${damageInlife}.`)}
 
    else if (attackPower > defensePower && haveShield === 'Sim' || haveShield === 'sim') {
     difference = (attackPower - defensePower) / 2
