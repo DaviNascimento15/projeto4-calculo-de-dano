@@ -1,9 +1,9 @@
 const pers1 = prompt('Defina o nome do seu personagem')
 const pers2 = prompt('Defina o nome de outro personagem')
-let attackPower = parseInt(prompt('Quantos vale o poder de ataque de ${pers1}?'))
-let life = parseInt(prompt('Quantos pontos de vida  ${pers2] tem?'))
-let defensePower = paseInt(prompt(Quantos pontos de defesa ${pers2}Tem?''))
-let haveShilde = prompt('$pers2} tem um escudo?')
+let attackPower = parseInt(prompt(`Quantos vale o poder de ataque de ${pers1}?`))
+let life = parseInt(prompt(`Quantos pontos de vida  ${pers2] tem?`))
+let defensePower = paseInt(prompt(`Quantos pontos de defesa ${pers2}Tem?`))
+let haveShilde = prompt(`$pers2} tem um escudo?`)
 let difference = 0
 let damage = 0
 let damageInlife= 0
